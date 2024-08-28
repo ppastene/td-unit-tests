@@ -85,6 +85,11 @@
                     <format>html</format>
                     <format>xml</format>
                 </formats>
+                <instrumentation>
+                    <includes>
+                        <include>**/*AppTest.java</include>
+                    </includes>
+                </instrumentation>
             </configuration>
         </plugin>
       </plugins>
