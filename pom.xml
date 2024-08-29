@@ -83,6 +83,10 @@
                     <goals>
                         <goal>report</goal>
                     </goals>
+                    <configuration>
+                        <!-- Ruta de salida absoluta para el informe HTML -->
+                        <outputDirectory>/shared/reports/jacoco</outputDirectory>
+                    </configuration>
                 </execution>
             </executions>
         </plugin>
